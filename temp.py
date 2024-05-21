@@ -20,7 +20,7 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    path_to_file = r'C:\Users\RAMLAVAN\Desktop\capred\car_price_predictor.pkl'  # Update this line with the correct path
+    path_to_file = r'car_price_predictor.pkl'  # Update this line with the correct path
     
     # Load the trained model
     with open(path_to_file, 'rb') as f:
